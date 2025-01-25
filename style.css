@@ -1,0 +1,368 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #3d0ebc;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  /* Navigation Bar Styling */
+  nav {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 15px;
+    display: inline-block;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Hero Section Styling */
+  .hero {
+    background-color: #e0f7fa;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  /* CTA Button Styling */
+  .cta-button {
+    background-color: #2a119b;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #4d18d2;
+  }
+  
+  /* Job Listings Section Styling */
+  .job-listings {
+    /* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    box-sizing: border-box;
+  }
+  
+  /* Header Section Styling */
+  header {
+    background-color: #1405a0;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  
+  /* Navigation Bar Styling */
+  nav {
+    background-color: #333;
+    padding: 15px 0;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 15px;
+    display: inline-block;
+    font-size: 1.1rem;
+  }
+  
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 5px;
+  }
+  
+  /* Hero Section Styling */
+  .hero {
+    background-color: #0912b0;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin: 20px 0;
+  }
+  
+  .cta-button {
+    background-color: #fff;
+    color: #2e09bf;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: 2px solid #1008b6;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #221be4;
+    color: white;
+  }
+  
+  /* Job Listings Section Styling */
+  #job-listings {
+    padding: 30px 10%;
+    background-color: #f4f4f9;
+    text-align: center;
+  }
+  
+  #job-listings h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  select {
+    padding: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .job-listings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .job-card {
+    background-color: white;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .job-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .job-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .job-card p {
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  .job-card .cta-button {
+    background-color: #1141bc;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #3625b8;
+    transition: background-color 0.3s;
+  }
+  
+  .job-card .cta-button:hover {
+    background-color: white;
+    color: #140ec2;
+  }
+  
+  /* Footer Section Styling */
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    nav a {
+      padding: 8px 15px;
+      font-size: 1rem;
+    }
+  
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero p {
+      font-size: 1.2rem;
+    }
+  
+    .job-listings {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .job-card {
+      width: 90%;
+    }
+  
+    select {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .job-card {
+      width: 100%;
+    }
+  
+    select {
+      width: 100%;
+    }
+  }
+  
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .job-card {
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .job-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .job-card p {
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  /* Resources Section Styling */
+  #resources {
+    padding: 40px 20px;
+    background-color: #f4f4f9;
+  }
+  
+  #resources h2 {
+    text-align: center;
+  }
+  
+  #resources ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  #resources ul li {
+    margin: 10px 0;
+  }
+  
+  #resources ul li a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  #resources ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Community Section Styling */
+  #community {
+    padding: 40px 20px;
+  }
+  
+  #community h2 {
+    text-align: center;
+  }
+  
+  #community p {
+    text-align: center;
+  }
+  
+  #community .cta-button {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+  }
+  
+  /* Footer Section Styling */
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+  .footer a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Job Opportunities for Disabled Persons</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f9;
+    }
+    header {
+      background-color: #3a1bd2;
+      color: white;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav {
+      background-color: #333;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      margin: 0 15px;
+      display: inline-block;
+    }
+    nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+    .hero {
+      background-color: #e0f7fa;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      color: #333;
+    }
+    .cta-button {
+      background-color: #221abc;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-size: 1rem;
+      border-radius: 5px;
+    }
+    .cta-button:hover {
+      background-color: #221fbb;
+    }
+    .job-listings {
+      
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 20px;
+    }
+    .job-card {
+      background-color: white;
+      padding: 20px;
+      margin: 15px;
+      width: 250px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      text-align: center;
+    }
+    .job-card h3 {
+      font-size: 1.5rem;
+      color: #333;
+    }
+    .job-card p {
+      color: #555;
+      margin: 10px 0;
+    }
+    .footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+  <script defer>
+    const gotopage = () => {
+      location.href = `job.html?type=${document.getElementById('job-filter').value}`
+    }
+  </script>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="./index.html">Home</a>
+    <div style="display: inline-block;">
+      <select id="job-filter" onchange="gotopage()" style="padding: 10px; font-size: 1rem;">
+        <option value="all">All Jobs</option>
+        <option value="full-time">Full Time</option> 
+        <option value="part-time">Part-time</option>
+        <option value="remote">Remote</option>
+      </select>
+    </div>
+    <a href="#resources">Resources</a>
+    <a href="#community">Community</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <marquee style="text-align: left;"><h3>Inclusive Careers</h3></marquee>
+    <h1>Find Inclusive Job Opportunities</h1>
+    <p>Explore a wide range of jobs that are accessible to individuals with disabilities</p>
+    <a href="#job-listings" class="cta-button">Start Your Job Search</a>
+  </section>
+
+  <!-- Job Listings Section -->
+  <section id="job-listings">
+    <h2 style="text-align:center; padding:20px;">Featured Job Listings</h2>
+    <div class="job-listings">
+      <div class="job-card">
+        <h3>Remote Customer Support</h3>
+        <p>Company: Innov Corp</p>
+        <p>Location: Remote</p>
+        <p>Flexibility: Yes</p>
+        <a href="#" class="cta-button">Apply Now</a>
+      </div>
+      <div class="job-card">
+        <h3>Web Developer</h3>
+        <p>Company: Zers Ltd.</p>
+        <p>Location: New York</p>
+        <p>Flexibility: Part-time</p>
+        <a href="#" class="cta-button">Apply Now</a>
+      </div>
+      <div class="job-card">
+        <h3>Data Entry Specialist</h3>
+        <p>Company: DataWorks</p>
+        <p>Location: Remote</p>
+        <p>Flexibility: Yes</p>
+        <a href="#" class="cta-button">Apply Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resources Section -->
+  <section id="resources" style="padding: 40px 20px; background-color: #f4f4f9;">
+    <select id="resources" onchange="gotopage()" style="padding: 10px; font-size: 1rem;">
+      <option value="job training"></option>
+      <option value="accessibility tools">accessibility tools</option> 
+      <option value="support services">support services</option>
+      <option value="community organisation">community organisation</option>
+    </select>
+    <h2 style="text-align: center;">Resources for Job Seekers</h2>
+    <ul style="text-align: center;">
+      <li><a href="#">Resume Writing Tips</a></li>
+      <li><a href="#">Interview Preparation</a></li>
+      <li><a href="#">Legal Rights and Advocacy</a></li>
+    </ul>
+    
+
+  
+    <!-- Job Listing s Section -->
+    
+  </section>
+
+  <!-- Community Section -->
+  <section id="community" style="padding: 40px 20px;">
+    <h2 style="text-align: center;">Join Our Community</h2>
+    <h3></h3>
+    <p style="text-align: center;">Connect with others, share experiences, and find support in your job search journey.</p>
+    <a href="#" class="cta-button" style="display: block; margin: 0 auto; width: 200px;">Join the Community</a>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p>&copy; 2025 Job Opportunities for Disabled Persons. All rights reserved.</p>
+    <p><a href="mailto:info@disabledjobs.com">Contact Us</a></p>
+  </footer>
+
+</body>
+
+</html>
