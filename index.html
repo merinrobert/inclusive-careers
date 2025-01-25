@@ -104,9 +104,17 @@
         <option value="part-time">Part-time</option>
         <option value="remote">Remote</option>
       </select>
+      <select id="Resources" onchange="gotopage()" style="padding: 10px; font-size: 1rem;">
+        <option value="Resources">Resources</option>
+        <option value="Accessibility tools">Accessibility tools</option> 
+        <option value="Support services">Support services</option>
+        <option value="Job training">Job training</option>
+      </select>
+      <select id="job-filter" onchange="gotopage()" style="padding: 10px; font-size: 1rem;">
+        <option value="community centre">community centre</option> 
+        <option value="community resources">community resources</option>
+        </select>
     </div>
-    <a href="#resources">Resources</a>
-    <a href="#community">Community</a>
     <a href="#contact">Contact</a>
   </nav>
 
@@ -147,13 +155,7 @@
   </section>
 
   <!-- Resources Section -->
-  <section id="resources" style="padding: 40px 20px; background-color: #f4f4f9;">
-    <select id="resources" onchange="gotopage()" style="padding: 10px; font-size: 1rem;">
-      <option value="job training"></option>
-      <option value="accessibility tools">accessibility tools</option> 
-      <option value="support services">support services</option>
-      <option value="community organisation">community organisation</option>
-    </select>
+  <section id="Resources" style="padding: 40px 20px; background-color: #f4f4f9;">
     <h2 style="text-align: center;">Resources for Job Seekers</h2>
     <ul style="text-align: center;">
       <li><a href="#">Resume Writing Tips</a></li>
@@ -170,13 +172,14 @@
   <!-- Community Section -->
   <section id="community" style="padding: 40px 20px;">
     <h2 style="text-align: center;">Join Our Community</h2>
-    <h3></h3>
+    <div style="display: inline-block;">
     <p style="text-align: center;">Connect with others, share experiences, and find support in your job search journey.</p>
     <a href="#" class="cta-button" style="display: block; margin: 0 auto; width: 200px;">Join the Community</a>
   </section>
 
   <!-- Footer Section -->
   <footer class="footer">
+    <h3>contact us:inclusivecareers@gmail.com</h3>
     <p>&copy; 2025 Job Opportunities for Disabled Persons. All rights reserved.</p>
     <p><a href="mailto:info@disabledjobs.com">Contact Us</a></p>
   </footer>
