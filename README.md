@@ -37,4 +37,13 @@ To set up this project locally, follow these steps:
 
 -javascript:
 
+
+![Alt text]("C:\Users\merin\OneDrive\Pictures\Screenshots\Screenshot 2025-01-26 095507.png"
+
+"C:\Users\merin\OneDrive\Pictures\Screenshots\Screenshot 2025-01-26 095524.png"
+
+"C:\Users\merin\OneDrive\Pictures\Screenshots\Screenshot 2025-01-26 095540.png")
+
+
+
    git clone https://github.com/your-username/job-opportunities-for-disabled-persons.git
