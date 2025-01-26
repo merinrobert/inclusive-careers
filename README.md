@@ -1,4 +1,4 @@
-# Job Opportunities for Disabled Persons
+![Screenshot 2025-01-26 095524](https://github.com/user-attachments/assets/70c680ea-460d-4c10-b967-8a81d4a31635)# Job Opportunities for Disabled Persons
 
 ## Project Overview
 
@@ -33,17 +33,16 @@ To set up this project locally, follow these steps:
 
 -html:
 
+
 -style.css:
+
 
 -javascript:
 
+![Screenshot 2025-01-26 095507](https://github.com/user-attachments/assets/58cc4b86-c2a0-4a6a-8eb8-5dcd571cab6a)
 
-![Alt text]("C:\Users\merin\OneDrive\Pictures\Screenshots\Screenshot 2025-01-26 095507.png"
-
-"C:\Users\merin\OneDrive\Pictures\Screenshots\Screenshot 2025-01-26 095524.png"
-
-"C:\Users\merin\OneDrive\Pictures\Screenshots\Screenshot 2025-01-26 095540.png")
+![Uploading Screenshot 2025-01-26 095524.png…]()
 
 
-
+![Screenshot 2025-01-26 095540](https://github.com/user-attachments/assets/4cf8f71b-2939-47d4-a4bc-33836631f0b7)
    git clone https://github.com/your-username/job-opportunities-for-disabled-persons.git
