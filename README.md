@@ -1,48 +1,74 @@
-![Screenshot 2025-01-26 095524](https://github.com/user-attachments/assets/70c680ea-460d-4c10-b967-8a81d4a31635)# Job Opportunities for Disabled Persons
+[Inclusive careers] 🎯
+Basic Details
+Team Name: [Merin Robert]
+Team Members
+Member 1: [Merin Robert] - [Saintgits college of engineering]
 
-## Project Overview
+Hosted Project Link
+[https://merinrobert.github.io/inclusive-careers/]
 
-The **Job Opportunities for Disabled Persons** website is designed to provide accessible, inclusive, and relevant job opportunities for individuals with disabilities. This platform aims to create an environment where people with disabilities can find employment, access resources, and engage with inclusive employers who understand the importance of accessibility and diversity in the workforce.
+Project Description
+[Its a site which is used find job oppurtunities for disabled persons. 
+By creating this site we can solve the problem.
+in this society disabled persons facing joblessness by this site we can solve the problem.]
 
-The site features job listings, resource links, and tools to help individuals find meaningful employment. With user-friendly navigation and a responsive design, we are working towards making the job search process more accessible and efficient for everyone, regardless of their abilities.
+The Problem statement
+[a job portal for disabled persons.]
 
-## Key Features
+The Solution
+[By creation this site we can solve the problem.]
 
-- **Job Listings**: A curated list of job opportunities from inclusive companies and organizations that value diversity in the workplace.
-- **Job Filters**: Filter job listings based on type (full-time, part-time, remote, etc.), industry, and accessibility features (e.g., wheelchair accessibility, remote work, flexible hours).
-- **Job Details**: Detailed information about each job, including job requirements, responsibilities, company details, salary (if available), and accessibility accommodations.
-- **Community Resources**: Links to resources such as training programs, disability rights advocacy, and legal resources to support job seekers.
-- **Success Stories**: Inspirational stories of people with disabilities who have successfully found employment, as well as testimonials from inclusive employers.
-- **Employer Listings**: A directory of companies actively seeking diverse and inclusive hires and promoting accessible hiring practices.
-- **Mobile-Responsive**: The site is fully responsive, ensuring a smooth experience across all devices including mobile phones, tablets, and desktops.
-- **Accessibility First**: The website is designed with accessibility in mind, including keyboard navigation, screen reader support, and color contrast for readability.
+Technical Details
+Technologies/Components Used
+For Software:
 
-## How It Works
+[html:
+script.css:
+java script:]
+[Accessibility Testing Tools
+Keyboard Navigation]
+[Axe-core
+ React-aria]
+[Axe
+WAVE
+Lighthouse]
 
-1. **Explore Job Listings**: Users can browse a wide range of job opportunities in various industries such as tech, education, customer support, design, and more. 
-2. **Use Filters**: Apply filters to narrow down job searches by employment type (full-time, part-time, remote), industry, or required accommodations.
-3. **View Detailed Information**: Click on any job listing to read a full description, including accessibility features, qualifications, responsibilities, and salary (if available).
-4. **Apply**: Interested users can apply directly via the provided application instructions or links to employer websites.
-5. **Access Resources**: Navigate to the "Community Resources" section to find helpful links for job training, disability rights, workplace inclusion, and more.
+For Software:
 
-## Installation & Setup
+Installation
+[const AxeBuilder = require('axe-webdriverjs');
+const { Builder } = require('selenium-webdriver');
 
-To set up this project locally, follow these steps:
+const driver = new Builder().forBrowser('chrome').build();
 
-## Technologies used
+AxeBuilder(driver)
+  .analyze()
+  .then(results => {
+    console.log(results);
+  });
+]
 
--html:
+Run
+[const { Builder } = require('selenium-webdriver');
+const AxeBuilder = require('axe-webdriverjs');
 
+const driver = new Builder().forBrowser('chrome').build();
 
--style.css:
+AxeBuilder(driver)
+  .analyze()
+  .then(results => {
+    console.log(results);
+  })
+  .catch(err => console.error(err));
+]
 
+Project Documentation
+For Software:
 
--javascript:
+Screenshots (Add at least 3)
+![Screenshot1](![Screenshot 2025-01-26 095507](https://github.com/user-attachments/assets/695fd3fa-99f8-416e-86b6-660cf7e462ec))
 
-![Screenshot 2025-01-26 095507](https://github.com/user-attachments/assets/58cc4b86-c2a0-4a6a-8eb8-5dcd571cab6a)
+![Screenshot2]![Screenshot 2025-01-26 095524](https://github.com/user-attachments/assets/ae0d135c-8fee-4a3e-a1a7-7d715aaf7814)
 
-![Uploading Screenshot 2025-01-26 095524.png…]()
+![Screenshot3]![Screenshot 2025-01-26 095540](https://github.com/user-attachments/assets/e9d93bd5-bb59-4608-b5a9-e2c788ee578a)
 
-![Screenshot 2025-01-26 095540](https://github.com/user-attachments/assets/4cf8f71b-2939-47d4-a4bc-33836631f0b7)
-
-   git clone https://github.com/your-username/job-opportunities-for-disabled-persons.git
