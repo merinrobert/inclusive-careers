@@ -43,6 +43,6 @@ To set up this project locally, follow these steps:
 
 ![Uploading Screenshot 2025-01-26 095524.png…]()
 
-
 ![Screenshot 2025-01-26 095540](https://github.com/user-attachments/assets/4cf8f71b-2939-47d4-a4bc-33836631f0b7)
+
    git clone https://github.com/your-username/job-opportunities-for-disabled-persons.git
